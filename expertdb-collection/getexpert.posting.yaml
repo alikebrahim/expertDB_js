@@ -1,0 +1,8 @@
+name: getExpert
+url: http://localhost:3000/experts/337
+body:
+  content: ''
+  content_type: application/json
+headers:
+- name: content-type
+  value: application/json

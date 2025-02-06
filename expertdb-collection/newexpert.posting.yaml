@@ -1,0 +1,26 @@
+name: newExpert
+method: POST
+url: http://localhost:3000/experts
+body:
+  content: |-
+    {
+      "designation":"Dr.",
+      "name":"Testing posting",
+      "institution":"Posting inc.",
+      "bh":"No",
+      "available":"Yes",
+      "rating":"None",
+      "validator_evaluator":"Validator",
+      "academic_employer":"Academic",
+      "genArea":"Http Requests",
+      "specArea":"Post",
+      "trained":"Yes",
+      "cv":"",
+      "phone":"39337177",
+      "email":"posting@posts.com",
+      "published":"Yes"
+    }
+  content_type: application/json
+headers:
+- name: content-type
+  value: application/json
